@@ -105,7 +105,7 @@ document.querySelectorAll('[data-toggle]').forEach((element) => {
   })
 })
 
-const socket = io('http://192.168.0.34:3000')
+const socket = io('https://roguelike-multiplayer-js-server.glitch.me')
 
 socket.on('init', handleInit)
 socket.on('gameState', handleGameState)
